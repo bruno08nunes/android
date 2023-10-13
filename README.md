@@ -1,6 +1,6 @@
 ## Android
 ### Objetivo:
-<p>Projeto criado com base no curso do Gustavo Guanabara. Criado para aprimorar HTML, CSS e responsividade.</p>
+<p>Projeto criado com base no curso do Gustavo Guanabara. Criado para aprimorar HTML, CSS e responsividade. Site contém uma notícia sobre a história do Android</p>
 
 ### Requisitos:
 <ul>
