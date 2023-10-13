@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 570px) {
+    span#menu {
+        display: block;
+        color: #7ce6ac;
+        font-size: 2em;
+        margin-top: 10px;
+        &:hover {
+            background-color: #7ce6ac;
+            color: #0F3E19;
+            transition: 0.7s;
+        }
+        &::selection {
+            background-color: #0F3E1900;
+        };
+    }
+    nav {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        & > a {
+            display: block;
+            transition: 0.7s;
+            &:hover {
+                background-color: #7ce6ac;
+                color: #0F3E19;
+            };
+            &::selection {
+                background-color: #7ce6ac00;
+            };
+        };
+    }
+    ul {
+        columns: 1;
+        padding-left: 8%;
+        font-size: 1.5em;
+        line-height: 1.4em;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    ul {
+        columns: 3;
+    }
+}

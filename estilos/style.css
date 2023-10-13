@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: "Android";
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E8E5C2;
+}
+
+/* Aqui começa a alterar o cabeçalho */
+
+header {
+    background-image: linear-gradient(to top, #0F3E19, #2BA561);
+    min-height: 180px;
+    color: white;
+    text-align: center;
+    padding: 35px 10px 15px 10px;
+    box-shadow: 0px 3px 27px rgba(0, 0, 0, 0.842);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.6em;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 1px 1px 1px black;
+}
+
+.h2-prin {
+    font-size: 1.6em;
+    color: rgba(255, 255, 255, 0.897);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+span#menu {
+    display: none;
+}
+
+nav {
+    margin-top: 20px;
+    text-align: start;
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+nav > a {
+    color: #7ce6ac;
+    font-size: 1.4em;
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 5px;
+    height: 25px;
+    padding: 2px 6px;
+}
+
+nav > a:hover {
+    transition: 0.7s;
+    background-color: #7ce6ac;
+    color: #0F3E19;
+}
+
+/* Aqui começa a mudar o main do site */
+
+main {
+    background-color: white;
+    margin: auto;
+    min-width: 250px;
+    max-width: 1200px;
+    padding: 20px;
+    padding-top: 30px;
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.562);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.not-tit {
+    color: #0F3E19;
+    font-size: 1.7em;
+    font-family: "Android";
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.3em;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+
+strong {
+    color: #095e2f;
+}
+
+h3 {
+    color: #0F3E19;
+    font-family: "Android";
+    margin: 20px 0;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, #7ce6ac, transparent);
+    padding-left: 5px;
+}
+
+.link_p {
+    color: #0F3E19;
+    background-color: #7ce6ac;
+    font-size: 0.97em;
+    padding: 2px 6px;
+    font-weight: bolder;
+}
+
+.link_p:hover {
+    color: #22973b;
+}
+
+.link_p::after, .link_lista::after {
+    content: "🔗";
+}
+
+img {
+    min-width: 200px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.img_android {
+    min-width: 200px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.sec_video {
+    background-color: #0F3E19;
+    position: relative;
+    padding-bottom: 56%;
+    margin: 15px -20px 0 -20px;
+}
+
+iframe {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.sec_lista {
+    background-color: #7ce6ac;
+    border-radius: 12px;
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.562);
+    overflow: hidden;
+    padding-bottom: 15px;
+    margin: 20px 0;
+}
+
+.h2_lista {
+    background-color: #0F3E19;
+    color: white;
+    padding: 5px;
+}
+
+article {
+    padding: 10px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    margin: 15px 0;
+}
+
+ul {
+    list-style-type: "✓";
+    font-size: 1.3em;
+    columns: 2;
+    list-style-position: inside;
+    margin: 15px 0;
+}
+
+abbr {
+    text-decoration: dotted underline;
+}
+
+.link_lista {
+    color: #0F3E19;
+    font-weight: bolder;
+    font-size: 1.1em;
+    &:hover {
+        color: #2aa745;
+    }
+}
+
+footer, footer > p {
+    background-color: #0F3E19;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #2BA561
+}
